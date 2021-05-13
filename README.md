@@ -11,18 +11,21 @@ In order to pronounce a winner based on the Election Results dataset, the data w
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-#### Candidate Count and percent
-For loops were used to count the total number of votes and the number of votes each candidate recieved. Then a percentage for each candidate was also calcualted.
+####Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-#### County count and percentage
-For loops were used to count the total number of votes and the number of votes each candidate recieved. Then a percentage for each candidate was also calcualted.
+##### - How many votes were cast in this congressional election?
+
+##### - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+
+##### - Which county had the largest number of votes?
+
+##### - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+##### - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 #### Challenges
 I had difficulty using the with open function in VS Code on my Mac after I downloaded anacanda and pandas. I uninstalled and reinstalled VS Code and that did not help. I figured out a work around with the os.join and with open statments by putting the data ini teh same folder as the .py file and joining in that folder instead of the resource folder. 
 I also struggled with the code to count counties. For some reason the same code worked on candidate but not county. 
 
 
-
-### Outcomes
-#### Text file
-A text file named analysis.txt was created with all of the data output (see resource forlder). 
+### Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
